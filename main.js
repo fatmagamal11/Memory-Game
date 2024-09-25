@@ -49,7 +49,7 @@ blocks.forEach((block, index) => {
       //check matcking
       checkMatch(allFlippedBlocks);
       console.log(win);
-      if (win === 1) {
+      if (win === 6) {
         document.getElementById("Win").play();
         createBalloons(300);
         setTimeout(() => {
